@@ -1,0 +1,104 @@
+/* .landingtext {
+  text-align: center;
+}
+.landing {
+  margin: 0px !important;
+} */
+.header {
+  padding: 5px !important;
+}
+.redes {
+  padding: 0px !important;
+  text-align: right;
+}
+header a {
+  font-size: x-large;
+}
+
+.fa-whatsapp::after {
+  content: " ";
+}
+
+.ulPrincipal {
+  padding: 0px !important;
+}
+
+.navPrincipal {
+  padding: 0px !important;
+}
+.nav-item {
+  background-color: white;
+  border: black 1px solid;
+}
+.nav-link {
+  color: black !important;
+  text-decoration: none;
+}
+
+section.hero {
+  background-image: url(../media/mensajeroherocortada.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100%;
+}
+/* @media screen and (min-width: 1250px) {
+  section.hero {
+    min-height: 400px;
+  }
+} */
+@media screen and (min-width: 460px) and (max-width: 600px) {
+  section.hero {
+    background-image: url(../media/mensajerohero.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+  }
+}
+@media screen and (max-width: 460px) {
+  section.hero {
+    background-color: rgb(61, 3, 3);
+    background-image: none;
+  }
+}
+section div {
+  background-color: rgba(245, 245, 245, 0.65);
+  padding: 10px 0px;
+}
+.ctawpp {
+  background-color: #4dca5c !important;
+  border: #4dca5c !important;
+}
+
+.servicios h1 {
+  text-align: center;
+  padding: 10px;
+  font-size: 30px;
+}
+.servicios p {
+  text-align: center;
+}
+.servicios h2 {
+  text-align: center;
+  padding: 10px;
+  font-size: 20px;
+}
+i.servicios {
+  font-size: 120px;
+}
+.nosotrosdiv h2 {
+  color: white;
+}
+.nosotrosdiv p {
+  color: darkgrey;
+  line-height: 45px;
+  padding: 0px 45px;
+}
+.nosotrospic {
+  background-image: url(../media/nosotros.jpg);
+  min-height: 500px;
+  background-attachment: fixed;
+  background-position: left;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+}
