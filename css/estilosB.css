@@ -55,29 +55,43 @@ section.hero {
   background-size: 100%;
   background-attachment: fixed;
   background-size: cover;
+  padding-bottom: 30px;
+  padding-top: 30px;
 }
 @media screen and (min-width: 460px) and (max-width: 600px) {
   section.hero {
     background-image: url(../media/mensajerohero.jpg);
     background-repeat: no-repeat;
     background-position: center;
-    background-size: 100%;
   }
 }
 @media screen and (max-width: 460px) {
   section.hero {
-    background-color: rgb(61, 3, 3);
+    background-color: #202020;
     background-image: none;
   }
 }
 .jumbotron {
-  background-color: rgba(245, 245, 245, 0.65);
+  background-color: rgba(112, 112, 112, 0.85);
   padding: 40px 30px !important;
+}
+.jumbotron p {
+  color: #202020;
+  font-weight: 500;
 }
 .ctawpp {
   background-color: #4dca5c !important;
-  border: #4dca5c !important;
+  /* border: 2px solid #202020 !important; */
+  border: none !important;
+  color: #202020 !important;
+  font-weight: 600 !important;
+  padding: 4px 9px !important;
 }
+.ctawpp i {
+  color: #202020;
+  font-weight: 600;
+}
+
 section.servicios {
   background-color: #3f3f3f;
   padding-top: 15px;
@@ -149,7 +163,7 @@ i.servicios {
   background-attachment: fixed;
   background-position: left;
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: cover !important;
 }
 @media screen and (max-width: 570px) {
   .nosotrosdiv {
@@ -167,7 +181,7 @@ i.servicios {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    min-width: 100vw !important;
+    min-width: 100% !important;
   }
 }
 .contacto {
@@ -196,3 +210,42 @@ footer .redes {
 .redes i {
   color: darkgrey;
 }
+
+footer div.header {
+  padding-bottom: 0px !important;
+}
+
+/* COTIZADOR */
+.background3f {
+  background-color: #3f3f3f;
+}
+.cotizador {
+  /* height: 550px; */
+  padding-top: 20px;
+  padding-bottom: 20px;
+  /* position: absolute; */
+}
+.mapa {
+  padding: 5px;
+  height: 420px;
+}
+
+.mapa h1 {
+  color: white;
+  text-align: center;
+  position: relative;
+  top: 25%;
+}
+.mapa p {
+  color: white;
+  font-weight: bolder;
+  position: relative;
+  top: 25%;
+  text-align: center;
+  font-size: 150px;
+  padding-bottom: 25%;
+}
+/* div#map {
+  width: 900px !important;
+  height: 800px !important;
+} */
